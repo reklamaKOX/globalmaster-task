@@ -1,0 +1,90 @@
+#main {
+    height: 350px;
+    width:90%;
+    background-image: url(banner.webp);
+    background-size:100%;
+    background-position: top;
+    margin-top:20px;    
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    padding-top:60px;
+    border-radius: 10px;
+    font-family: system-ui;
+    background-blend-mode: darken;
+    color:white;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.button {
+    background-color: rgb(61, 96, 250);
+    color:white;
+    padding:7px 50px;
+    text-decoration:none;
+    border-radius: 12px;
+    margin-top: 50px;
+}
+
+#m {
+  text-align: left;
+  margin-left:80px;
+  font-family: system-ui;
+}
+
+#m1 {
+    text-align: right;
+    margin-right:100px;
+    font-family: system-ui;
+}
+
+.blok {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 150px;
+    margin: 10px;
+    text-align: center;
+    padding: 15px;
+    font-family: system-ui;
+    color:rgb(97, 94, 94);
+}
+
+.blok-container {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-around; 
+    gap: 10px; 
+    padding: 70px;
+}
+
+
+.blok img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px 10px 0 0;
+    transition: transform 0.5s;
+    filter: grayscale(100%);
+}
+
+.blok:hover img {
+    filter: grayscale(0%);  
+    transform: scale(0.9); 
+}
+
+a {
+    text-decoration: none;
+ }
+
+ .category-m3 {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 0 80px; 
+    margin-top: 20px;
+}
+
+#m, #m1 {
+    margin: 0;
+}   
+
